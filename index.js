@@ -6,9 +6,9 @@ const http = require("http").Server(app);
 const io = require("socket.io")(http);
 const port = 3000;
 
-app.set("views", "./views");
+app.set("views", __dirname + "/views");
 app.set("view engine", "pug");
-app.use(express.static("static"));
+app.use(express.static(__dirname + "/static"));
 
 app.get("/", (req, res) => {
   res.render("index");
