@@ -45,6 +45,7 @@ io.on("connection", socket => {
   socket.on("disconnect", () => {
     console.log("a user disconnected");
   });
+  socket.on("reset", () => (minmax = { min: 0, max: 0 }));
 });
 
 http.listen(port, () => console.log(`Listening on port ${port}`));
