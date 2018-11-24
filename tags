@@ -8496,6 +8496,7 @@ matchesProperty	node_modules/lodash/matchesProperty.js	/^function matchesPropert
 matchesRange	node_modules/resolve/lib/core.js	/^function matchesRange(range) {$/;"	f
 matchesStrictComparable	node_modules/lodash/_matchesStrictComparable.js	/^function matchesStrictComparable(key, srcValue) {$/;"	f
 matchesStrictComparable	node_modules/lodash/lodash.js	/^    function matchesStrictComparable(key, srcValue) {$/;"	f
+max	index.js	/^  min: 0,$/;"	p	class:let
 max	node_modules/core-js/library/modules/_to-absolute-index.js	/^var max = Math.max;$/;"	v
 max	node_modules/core-js/modules/_to-absolute-index.js	/^var max = Math.max;$/;"	v
 max	node_modules/lodash/lodash.js	/^    function max(array) {$/;"	f
@@ -8654,7 +8655,9 @@ might_need_space	node_modules/uglify-js/lib/output.js	/^    var might_need_space
 mime	node_modules/express/lib/response.js	/^var mime = send.mime;$/;"	v
 mime	node_modules/express/lib/utils.js	/^var mime = require('send').mime;$/;"	v
 mime	node_modules/mime/build/test.js	/^var mime = require('..\/mime');$/;"	v
+min	index.js	/^    minmax = {$/;"	p	class:minmax
 min	index.js	/^const options = { min: -20, max: 60, integer: true };$/;"	p	class:const
+min	index.js	/^let minmax = {$/;"	p	class:let
 min	node_modules/core-js/library/modules/_to-absolute-index.js	/^var min = Math.min;$/;"	v
 min	node_modules/core-js/library/modules/_to-length.js	/^var min = Math.min;$/;"	v
 min	node_modules/core-js/modules/_to-absolute-index.js	/^var min = Math.min;$/;"	v
@@ -12926,6 +12929,7 @@ upath	node_modules/upath/build/code/upath.js	/^  if (isFunction(propValue)) {$/;
 update	node_modules/lodash/lodash.js	/^    function update(object, path, updater) {$/;"	f
 update	node_modules/lodash/update.js	/^function update(object, path, updater) {$/;"	f
 updateContext	node_modules/babylon/lib/index.js	/^  Tokenizer.prototype.updateContext = function updateContext(prevType) {$/;"	m	class:Tokenizer
+updateMinMax	index.js	/^function updateMinMax(c) {$/;"	f
 updateWith	node_modules/lodash/lodash.js	/^    function updateWith(object, path, updater, customizer) {$/;"	f
 updateWith	node_modules/lodash/updateWith.js	/^function updateWith(object, path, updater, customizer) {$/;"	f
 updateWrapDetails	node_modules/lodash/_updateWrapDetails.js	/^function updateWrapDetails(details, bitmask) {$/;"	f

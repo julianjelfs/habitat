@@ -1,8 +1,8 @@
 (function() {
-  const temp = document.getElementById("temp");
-  console.log(temp);
   const socket = io();
   socket.on("temperature", msg => {
-    document.getElementById("temp").textContent = `${msg.c} °C`;
+    document.querySelector(".temp").textContent = `${msg.c} °C`;
+    document.querySelector(".min").textContent = `${msg.min} °C`;
+    document.querySelector(".max").textContent = `${msg.max} °C`;
   });
 })();

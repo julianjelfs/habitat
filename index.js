@@ -18,9 +18,23 @@ function toFaranheit(c) {
   return Math.floor((c * 9) / 5 + 32);
 }
 
+let minmax = {
+  min: 0,
+  max: 0
+};
+
+function updateMinMax(c) {
+  minmax = {
+    min: c < minmax.min ? c : minmax.min,
+    max: c > minmax.max ? c : minmax.max
+  };
+}
+
 setInterval(() => {
   const c = rn(options);
+  updateMinMax(c);
   io.emit("temperature", {
+    ...minmax,
     c,
     f: toFaranheit(c)
   });

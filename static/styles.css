@@ -1,13 +1,52 @@
 body {
   font-family: Helvetica;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #ffc53a;
+  color: #161032;
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2.6em;
 }
 
-#temp {
+.temp {
   font-size: 5em;
   font-weight: bold;
+}
+
+.minmax {
+  font-size: 1em;
+  display: flex;
+  flex-direction: row;
+}
+
+.min,
+.max,
+.empty {
+  flex-grow: 1;
+}
+
+.min,
+.max {
+  font-weight: bold;
+}
+
+.min {
+  color: #255f85;
+}
+
+.max {
+  color: #c5283d;
+}
+
+.pig {
+  margin-top: 50px;
+  background-image: url(pig2.png);
+  height: 250px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
