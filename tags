@@ -6684,6 +6684,7 @@ firstchar	node_modules/body-parser/lib/types/json.js	/^function firstchar (str) 
 fitSorter	node_modules/clean-css/lib/optimizer/level-2/restructure.js	/^  function fitSorter(fit1, fit2) {$/;"	f
 fixMethod	node_modules/core-js/modules/_collection.js	/^  var fixMethod = function (KEY) {$/;"	f	function:module.exports
 fixed	node_modules/lodash/fp/_falseOptions.js	/^  'curry': false,$/;"	p	class:module.exports
+fixed	static/scripts.js	/^function fixed(n) {$/;"	f
 fixup	node_modules/promise/build.js	/^function fixup(src) {$/;"	f
 flags	node_modules/babylon/lib/index.js	/^  node.regex = { pattern: pattern, flags: flags };$/;"	p	class:node.regex
 flags	node_modules/core-js/fn/regexp/flags.js	/^var flags = require('..\/..\/modules\/_flags');$/;"	v
@@ -7299,6 +7300,7 @@ getTag	node_modules/lodash/_getTag.js	/^    (WeakMap && getTag(new WeakMap) != w
 getTag	node_modules/lodash/_getTag.js	/^var getTag = baseGetTag;$/;"	v
 getTag	node_modules/lodash/isWeakMap.js	/^var getTag = require('.\/_getTag'),$/;"	v
 getTag	node_modules/lodash/lodash.js	/^        (WeakMap && getTag(new WeakMap) != weakMapTag)) {$/;"	f
+getTemperature	index.js	/^function getTemperature(cb) {$/;"	f
 getThen	node_modules/promise/domains/core.js	/^function getThen(obj) {$/;"	f
 getThen	node_modules/promise/lib/core.js	/^function getThen(obj) {$/;"	f
 getThen	node_modules/promise/setimmediate/core.js	/^function getThen(obj) {$/;"	f
@@ -9283,7 +9285,6 @@ mime	node_modules/express/lib/response.js	/^var mime = send.mime;$/;"	v
 mime	node_modules/express/lib/utils.js	/^var mime = require('send').mime;$/;"	v
 mime	node_modules/mime/build/test.js	/^var mime = require('..\/mime');$/;"	v
 min	index.js	/^  minmax = {$/;"	p	class:minmax
-min	index.js	/^const options = { min: -20, max: 60, integer: true };$/;"	p	class:const
 min	index.js	/^let minmax = {$/;"	p	class:let
 min	node_modules/core-js/library/modules/_to-absolute-index.js	/^var min = Math.min;$/;"	v
 min	node_modules/core-js/library/modules/_to-length.js	/^var min = Math.min;$/;"	v
