@@ -1,0 +1,13 @@
+body {
+  font-family: Helvetica;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+#temp {
+  font-size: 5em;
+  font-weight: bold;
+}
