@@ -12167,6 +12167,7 @@ sendOptionsResponse	node_modules/express/lib/router/index.js	/^function sendOpti
 sendPacket	node_modules/engine.io-client/lib/socket.js	/^Socket.prototype.sendPacket = function (type, data, options, fn) {$/;"	m	class:Socket
 sendPacket	node_modules/engine.io/lib/socket.js	/^Socket.prototype.sendPacket = function (type, data, options, callback) {$/;"	m	class:Socket
 sendStatus	node_modules/express/lib/response.js	/^res.sendStatus = function sendStatus(statusCode) {$/;"	f
+sendToAws	index.js	/^function sendToAws(data) {$/;"	f
 sendToMultiPropertyMoveCache	node_modules/clean-css/lib/optimizer/level-2/restructure.js	/^  function sendToMultiPropertyMoveCache(position, movedProperty, allFits) {$/;"	f	function:restructure
 sendfile	node_modules/express/lib/response.js	/^function sendfile(res, file, options, callback) {$/;"	f	function:function
 sep	node_modules/split-string/index.js	/^    options = { sep: options };$/;"	p	class:options
