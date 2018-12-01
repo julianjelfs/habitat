@@ -1,0 +1,14 @@
+{
+  "short_name": "Guinea Pig Habitat",
+  "name": "Guinea Pig Habitat",
+  "icons": [{
+      "src": "/pig2.png",
+      "type": "image/png",
+      "sizes": "144x144"
+  }],
+  "start_url": "/",
+  "background_color": "#ffc53a",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#ffc53a"
+}
